@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+ body{
+	 font-family:tahoma;
+	
+ }
+ 
+
+ header {
+	 background-image:url(../images/footer1.jpg);
+	 height:100%;
+	 background-position:center;
+	 background-size:cover;
+	 background-attachment:fixed;
+	
+ }
+ .hero-text {
+	color:white;
+	text-transform:uppercase;
+	margin-bottom:80px;
+	
+	
+}
+
+
+.header img {
+	margin-bottom:120px;
+}
+
+
+  .navbar-custom {
+	background:transparent;
+}
+
+.icon-bar {
+	background:lightgray;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+	
+		background:transparent;
+}
+
+.navbar-custom .navbar-nav li a {
+	color:white;
+}
+
+.navbar-brand {
+	
+	color:white;
+}
+.navbar-nav li a:hover {
+	  color:#e67e22;
+	  transition:all 0.2s ease-in;
+
+  }	
+  
+   h1:after{
+	  width:120px;
+	  height:3px;
+	  background-color:#e67e22;
+	  display:block;
+	  content:" ";
+	  margin:0 auto;
+	  margin-top:10px;
+	  
+	 
+  }
+  
+  .cities {
+	  font-family:"Comic Sans MS", cursive;
+  }
+ 
+  #box{
+	  width:auto;
+	  height:150px;
+      border-bottom:solid #C60;	
+  }
+  
+  
+  
+/*Contact Form  */
+										
+
+
+.company_address { 
+            padding-top: 26px;
+		   }
+
+.company_address p  {
+                color: #C60;
+                font-size: 16px;
+                line-height: 1.8em;
+              }
+
+.company_address p span  {
+             text-decoration: none;
+             color:#C60;
+             cursor: pointer;
+              }
+
+.company_address p span:hover  { 
+             text-decoration: none;
+             color:#000;
+             }
+
+.company_address h5 span  {
+             text-decoration: none;
+             color:#C60;
+             cursor: pointer;
+          }
+		 		
+							
+.contact_area { 
+            padding-top: 26px;
+		   }										
+.contact_area p{
+	     color:C60;
+		 font-family:"Comic Sans MS", cursive;
+		 font-size:18px;
+		 line-height:1.8em;
+		 padding-top:10px;
+}
+								
+.contact_area h3:after{
+	  width:100px;
+	  height:2px;
+	  background-color:#e67e22;
+	  display:block;
+	  content:" ";
+	  margin:0 auto;
+	  margin-top:10px;
+}												
+  
+  
+
+#contact-message,
+#contact-name,
+#contact-phone,
+#contact-email{
+    width:100%;
+    box-shadow:inset 0 1px 2px #C90 0 1px 0 #C60;
+    -webkit-box-shadow:inset 0 1px 2px #C90, 0 1px 0 #C60;
+    -moz-box-shadow:inset 0 1px 2px ##C90, 0 1px 0 #C60;
+    border:1px solid #CCC;
+    background:#fff;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+}
+
+
+
+.btn-success {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:#c60;
+    background-image:linear-gradient(bottom, #C90 0%, #C60 52%);
+    background-image:-moz-linear-gradient(bottom, #C90 0%, #C60 52%);
+    background-image:-webkit-linear-gradient(bottom, #C90 0%, #C60 52%);
+    color:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+}
+
+.btn-success:hover {
+	text-decoration:none;
+	color:#000;
+	
+}
+   -->footer >
+
+.bottom {
+  background-color: none;
+}
+.bottom .container {
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/129642659.jpg);
+  min-height: 150px;
+  padding-top:500;
+  width:auto;
+}
+.bottom .container h2 {
+  color: #C60;
+  font-size:20px;
+}
+
+.bottom .container h2:hover {
+  text-decoration:none;
+  cursor:pointer;
+}
+.bottom .container p {
+  font-family:"Comic Sans MS", cursive;
+  color: #C60;
+}
+
+.bottom .container p:hover {
+  /* color: #FFF; */
+  cursor:pointer;
+}
+
+.bottom .container h4 {
+  color: #C60;
+}
+	
+
+	

@@ -1,0 +1,29 @@
+.ok{
+    color: blue;
+    width: 500px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .ok{
+        color: red;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .ok{
+        color: green;
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 480px)
+{
+    .ok{
+        color: yellow;
+        width: 100px;
+    }
+}

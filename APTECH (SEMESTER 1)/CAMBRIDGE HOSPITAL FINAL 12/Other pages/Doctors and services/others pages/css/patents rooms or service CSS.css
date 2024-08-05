@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+.BODY{
+	background-color:#CCC;
+	width:80%;
+	margin-right:10%;
+	margin-left:10%;
+	margin-top:1%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+ body{
+	 background-color:#FFF;
+	 background-size:100%;
+	 font-family:tahoma;
+	
+ }
+ .hero {
+	 position:absolute;
+	 width:1140px;
+	 top:60%;
+	 left:55%;
+	 right:55%;
+	 transform:translate(-50%,-50%);
+ }
+	 
+ h1 {
+	 color:white;
+ }
+
+ 
+ 
+ 
+ header {
+	 background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../27296521-doctors-wallpapers.jpg);
+	 height:80vh;
+	 width:100%;
+	 background-position:center;
+	 background-size:cover;
+	
+ }
+  ul#main-nav, ul.sub1, ul.sub2 {
+	  margin-right:1%;
+		 list-style-type:none;
+		 float:right;
+		 margin-top:20px;
+		 
+  }
+  ul#main-nav li {
+	  
+	  display:inline-block;
+	  margin-left:10px;
+	  position:relative;
+  }
+  ul#main-nav ul.sub1 {
+	display:none;
+	position:absolute;
+	top:20px;
+	left:0px;
+	
+
+}
+ul#main-nav li a {
+	  color:white;
+	  text-decoration:none;
+	  font-size:90%;
+	  font-weight:bold;
+  }
+  ul#main-nav li a:hover {
+	  color:#e67e22;
+	  transition:all 0.5s ease-in;
+	  padding:12px 0;
+  }
+  ul#main-nav ul.sub1 {
+	display:none;
+	position:absolute;
+	top:5px;
+	left:0px;
+	
+
+}
+  ul#main-nav li:hover .sub1{
+	display:block;
+
+}
+
+
+
+  
+   
+  
+ 
+  
+
+.gallery {
+	height:1%;
+    margin: 2%;
+    float: left;
+    width: 30%;
+} 
+
+.gallery{
+	background-color:#CCC;
+}
+
+.gallery img {
+    width: 100%;
+	height:auto;
+}
+
+
+
+.button {
+	height:50%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F97C00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  width: 98%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}	
+
+
+.child {
+	margin-top:3%;
+}
+
+h3{
+	color:#2981AF;
+}
+
+
+.box {
+  width:65%;
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+  margin-left:15%;
+}
+
+.box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.box span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .box {
+      text-align: center;
+  }
+  .box img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+
+

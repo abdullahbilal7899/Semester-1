@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/Contact us.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact us</title>
+</head>
+
+<body>
+<header>
+<nav class="navbar navbar-custom">
+
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+
+</button>
+
+
+<a href="" class="navbar-brand"><b>BAKE AND TAKE</b> <i class="fa fa-birthday-cake" aria-hidden="true"></i></a>
+
+</div>
+<div class="collapse navbar-collapse" id="navi">
+<ul class="nav navbar-nav navbar-right">
+
+
+       <li><a href="bakery.html">HOME <i class="fa fa-home" aria-hidden="true"></i></a></li>
+     
+             
+              <li><a href="Product.html">OUR PRODUCTS <i class="fa fa-product-hunt" aria-hidden="true"></i></a></li>
+               <li><a href="testi.html">TESTIMONIALS <i class="fa fa-thumbs-up" aria-hidden="true"></i></a></li>
+              <li><a href="team.html">TEAM <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+              <li><a href="Our Story.html">OUR STORY <i class="fa fa-info" aria-hidden="true"></i></a></li>
+              <li><a href="Contact us.html">CONTACTS <i class="fa fa-phone" aria-hidden="true"></i></a></li>
+             
+    </ul>
+</div>
+  </div>
+
+
+
+</nav>
+
+
+<div class="row">
+<div class="col-md-12 text-center">
+  <img src="images/3.png" width="350" height="200" />
+   </div>
+   
+</div>
+<div class="row">
+ <div class="col-md-12">
+ <div class="hero-text text-center">
+ 
+ <h2> "We Value your  <br>FeedBack.!</h2>
+ </div>
+ </div>
+ </div>
+ </header>
+ 
+ <section class="cities">
+<h1 class="text-center">Contact us</h1>
+</section>
+
+
+<section class="cities">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="company_address">
+            <h3><b>Address</h3></b>
+            <p>3011 University Avenue (corner 30th Street) North Park,<br> San Diego, CA 92104</p>
+            <h3><b>Phone:</h3></b>
+            <p>(00) 245 690 448</p>
+            <h3><b>Email:</h3></b><p><span><link href="#">info@bake&take.com</span></p>
+            <h3><b>Opening Hours</h3></b>
+            <h5><b>Monday – Friday:</b> <span>9am-6pm</span></h5>
+            <h5><b>Saturday: </b><span>10am-4pm</span></h5>
+            <h5><b>Sunday: </b><span> 10am-1pm</span></h5>
+         </div>
+         </div>
+         
+        
+        
+        
+        
+        
+<section class="cities">      
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="contact_area">
+
+
+<h3 class="text-center"><b>FeedBack Form</h3></b>
+<form>
+
+<div class="form-group">
+<label for="contact-name">Name</label>
+<input type="text" class="form-control" id="contact-name" name="name"  placeholder="Enter your name.." onkeyup='validateName()'>
+<span class='error-message' id='name-error'></span>
+</div>
+
+<div class="form-group">
+<label for="contact-phone">Phone Number</label>
+<input type="tel" class="form-control" id="contact-phone" name="phone" placeholder="Ex: 1231231234" onkeyup='validatePhone()'>
+<span class='error-message' id='phone-error'></span>
+</div>
+
+<div class="form-group">
+<label for="contact-email">Email address</label>
+<input type="email" class="form-control" id="contact-email" name="email" placeholder="Enter Email" onkeyup='validateEmail()'>
+<span class='error-message' id='email-error'></span>
+</div>   
+
+<div class="form-group">
+<label for='contactMessage'>Your Message</label>
+<textarea class="form-control" rows="5" id='contact-message'  name='message'  placeholder="Enter a brief message" onkeyup='validateMessage()'>
+</textarea>
+<span class='error-message' id='message-error'></span>
+</div>
+
+<button onclick='validateForm()' class="btn btn-success">Submit</button>
+<span class='error-message' id='submit-error'></span>
+</form>
+      
+<script>    
+      function validateName() {
+
+  var name = document.getElementById('contact-name').value;
+
+  if(name.length == 0) {
+
+    producePrompt('Name is required', 'name-error' , 'red')
+    return false;
+
+  }
+
+  if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+
+    producePrompt('First and last name, please.','name-error', 'red');
+    return false;
+
+  }
+
+  producePrompt('Valid', 'name-error', 'green');
+  return true;
+
+}
+
+function validatePhone() {
+
+  var phone = document.getElementById('contact-phone').value;
+
+    if(phone.length == 0) {
+      producePrompt('Phone number is required.', 'phone-error', 'red');
+      return false;
+    }
+
+    if(phone.length != 10) {
+      producePrompt('Include area code.', 'phone-error', 'red');
+      return false;
+    }
+
+    if(!phone.match(/^[0-9]{10}$/)) {
+      producePrompt('Only digits, please.' ,'phone-error', 'red');
+      return false;
+    }
+
+    producePrompt('Valid', 'phone-error', 'green');
+    return true;
+
+}
+
+function validateEmail () {
+
+  var email = document.getElementById('contact-email').value;
+
+  if(email.length == 0) {
+
+    producePrompt('Email Invalid','email-error', 'red');
+    return false;
+
+  }
+
+  if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+
+    producePrompt('Email Invalid', 'email-error', 'red');
+    return false;
+
+  }
+
+  producePrompt('Valid', 'email-error', 'green');
+  return true;
+
+}
+
+function validateMessage() {
+  var message = document.getElementById('contact-message').value;
+  var required = 30;
+  var left = required - message.length;
+
+  if (left > 0) {
+    producePrompt(left + ' more characters required','message-error','red');
+    return false;
+  }
+
+  producePrompt('Valid', 'message-error', 'green');
+  return true;
+
+}
+
+function validateForm() {
+  if (!validateName() || !validatePhone() || !validateEmail() || !validateMessage()) {
+    jsShow('submit-error');
+    producePrompt('Please fix errors to submit.', 'submit-error', 'red');
+    setTimeout(function(){jsHide('submit-error');}, 2000);
+  }
+  else {
+
+  }
+}
+
+function jsShow(id) {
+  document.getElementById(id).style.display = 'block';
+}
+
+function jsHide(id) {
+  document.getElementById(id).style.display = 'none';
+}
+
+
+
+
+function producePrompt(message, promptLocation, color) {
+
+  document.getElementById(promptLocation).innerHTML = message;
+  document.getElementById(promptLocation).style.color = color;
+
+
+}</script>
+      
+      
+     </b>
+     </div>
+     </div>
+     </div>
+     </div> 
+      </div>
+      
+      
+
+
+    
+    
+    <div class="clear"> </div>
+      </div>
+      
+      
+
+<div id="box">
+
+</div>
+
+
+<!-- Site footer -->
+<section class="bottom">
+
+<div class="container">
+  
+    <div class="col-md-3">
+     <h2></h2>
+    <p><center><img src="images/3.png" height="120" width="180"/></p></center>
+    </div>
+    <div class="col-md-3">
+      <h2><span class="glyphicon glyphicon-cloud"></span> Categories</h2>
+      <b><p><span class="glyphicon glyphicon-book"></span>   New Products</p></b>
+      <b><p><span class="glyphicon glyphicon-bishop"></span> Events Menus </p></b>
+      <b><p><span class="glyphicon glyphicon-star"></span> Special Menus </p></b>
+    </div>
+    <div class="col-md-3">
+      <h2><span class="glyphicon glyphicon-envelope"></span> Contact Us</h2>
+      <b><p><span class="glyphicon glyphicon-check"></span> Email: info@bake&take.com</p></b>
+      <b><p><span class="glyphicon glyphicon-phone"></span> Phone: (00) 245 690 448</p></b>
+    </div>
+    <div class="col-md-3">
+      <h2><span class="glyphicon glyphicon-phone"></span>Follow Us</h2>
+      <p><img src="images/facebook.png">
+      <img src="images/feed.png" /></p>
+      </div>
+      <p style="font-size: 10px;" class="text-center">© 2022 BAKE AND TAKE Bakery Shop. All rights reserved.</p>
+</center>
+</div>
+</div>
+</center>
+</section>
+
+
+
+</body>
+</html>

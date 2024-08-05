@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+.BODY{
+	height:auto;
+	margin-top:1%;
+	box-shadow:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	margin-left:8%;
+	margin-right:8%;
+	width:84%;
+	background-color:#FFF;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+ body{
+	 background-color:#FFF;
+	 background-size:100%;
+	 font-family:tahoma;
+	
+ }
+ .hero {
+	 position:absolute;
+	 width:1140px;
+	 top:50%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+ }
+	 
+ h1 {
+	 color:white;
+ }
+ h1:hover{
+	 color:#e67e22;
+	 transition:all 0.5s ease-in;
+	 
+ }
+ 
+ .row {
+	 max-width:1140px;
+	 margin:0 auto;
+ }
+ 
+ header {
+	 background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(39037542-doctors-wallpapers.jpg);
+	 height:80vh;
+	 width:100%;
+	 background-position:center;
+	 background-size:cover;
+	
+ }
+  ul#main-nav, ul.sub1, ul.sub2 {
+	  margin-right:1%;
+		 list-style-type:none;
+		 float:right;
+		 margin-top:20px;
+		 
+  }
+  ul#main-nav li {
+	  
+	  display:inline-block;
+	  margin-left:10px;
+	  position:relative;
+  }
+  ul#main-nav ul.sub1 {
+	display:none;
+	position:absolute;
+	top:20px;
+	left:0px;
+	
+
+}
+ul#main-nav li a {
+	  color:white;
+	  text-decoration:none;
+	  font-size:90%;
+	  font-weight:bold;
+  }
+  ul#main-nav li a:hover {
+	  color:#e67e22;
+	  transition:all 0.5s ease-in;
+	  padding:12px 0;
+  }
+  ul#main-nav ul.sub1 {
+	display:none;
+	position:absolute;
+	top:5px;
+	left:0px;
+	
+
+}
+  ul#main-nav li:hover .sub1{
+	display:block;
+
+}
+
+
+
+  
+   .logo img {
+	   height:100px;
+	  float:left;
+	  margin-top:10px; 
+  }
+  
+  .btn{
+	  border:1px solid #e67e22;
+	  padding:10px 30px;
+	  color:#e67e22;
+	  text-decoration:none;
+	  border-radius:12px;
+	  margin-right:15px;
+  }
+  .button-awesome{
+	  margin-top:40px;
+  }
+  .btn-half{
+	  background-color:#e67e22;
+	  color:white;
+  }
+  .btn-full:hover {
+	  background-color:#e67e22;
+	  color:white;
+	  transition:all 0.5s ease-in;
+  }
+  .pic{
+	  border:2px solid black;
+	  
+  }
+  .copy {
+	  width:70%;
+	  margin-left:5%;
+	  text-align:justify;
+	  margin-bottom:20px;
+	  
+  }
+  
+  h2 {
+	  margin-top:80px;
+	  margin-bottom:30px;
+  }
+   h2:after{
+	  width:100px;
+	  height:2px;
+	  background-color:#e67e22;
+	  display:block;
+	  content:" ";
+	  margin:0 auto;
+	  margin-top:30px;
+	 
+  }
+  footer{
+	  background-color:#EEEDED;
+	  width:auto;
+	  height:200%;
+	  margin-top:60px;
+	  padding:50px;
+	  border-top:1px solid #e67322;
+  }
+  a:hover{
+	  color:#e67e22;
+	  text-decoration:none;
+  }
+  .logo1 img {
+	  height:70px;
+	  float:right;
+	  margin-top:10px;
+	   
+  }
+
+ 
+ 
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+  
+  
+  
+  
+.gallery {
+	height:1%;
+    margin: 0.6%;
+    float: left;
+    width: 30%;
+} 
+
+.gallery{
+	background-color:#D7D7D7;
+}
+
+.gallery img {
+    width: 100%;
+	height:auto;
+}
+
+.desc {
+    padding: 1%;
+    text-align: center;
+}
+
+select.form{
+	height:14%;
+	margin-bottom:50%;
+	width:90%;
+	margin-left:2%;
+}
+.head{
+	margin-left:2%;
+	margin-top:5%;
+}
+.p1{
+	margin-left:2%;
+}
+	
+.button {
+	height:20%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e71f1f;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  width: 106%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.lead{
+	background-color:#eb1c48;
+	color:#FFF;
+}
+
+.hj{
+	margin-left:50px;
+}

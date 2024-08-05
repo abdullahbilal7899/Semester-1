@@ -1,0 +1,19 @@
+.container-fluid{
+    background-color: #641E16  !important;
+}
+.nav-item a{
+     color: white !important;
+     /* position: fixed; */
+}
+
+.dropdown-menu .dropdown-item a{
+    background-color: brown !important;
+}
+
+.dropdown-menu{
+    background-color: #641E16 !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: red !important;
+    background-color: black !important;
+}

@@ -1,0 +1,27 @@
+.a {
+  background-color: crimson;
+  margin-top: 15%;
+  border: 5px solid black;
+  width: 50%;
+}
+.c {
+  background-color: aqua;
+  border: 5px solid black;
+  width: 50%;
+}
+.d {
+  color: green;
+}
+.e {
+  color: blue;
+}
+
+.f {
+  color: red;
+}
+.g {
+  border: 5px solid black;
+  width: 40%;
+}
+
+

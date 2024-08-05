@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Page Title</title>
+ <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+ <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+    body { 
+       background-image: url(images/spaghetti-1932466__340.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin:0;
+        font-family:Arial
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color:black;
+      border: black;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    
+    .topnav .icon {
+      display: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 17px;    
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .topnav a:hover, .dropdown:hover .dropbtn {
+      background-color:lightblue;
+      color: rgb(14, 3, 3);
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .topnav.responsive .dropdown {float: none;}
+      .topnav.responsive .dropdown-content {position: relative;}
+      .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+    
+     
+    }
+    
+    
+    </style>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html"><i class="fa fa-home"></i>&nbsp Home</a>
+            <a href="Menu.html"><i class="fa fa-glass"></i>&nbsp Menu</a>
+            <a href="Table Reservation.html"><i class="fa fa-calendar"></i>&nbsp Table Reservation</a>
+            <div class="dropdown">
+              <div class="dropdown-content">
+                <a href="#">Grocercies</a>
+                <a href="#">Electronic Devices</a>
+                <a href="#">Cosmetic Items</a>
+              </div>
+            </div> 
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    
+    
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <center><h1 style="font-size:45px;background-color: grey;width: 400px;">BBQ</h1></center>
+    </div>
+    
+    <div class="container">
+        <div class="item">
+            <div class="img">
+                <img src="images/seekh-kebab-620.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Seekh Kabab</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;"> Any party is incomplete without some delicious appetizers to kick start with and there would be no better option than some hot, grilled or roasted seekh kebabs. Kebabs made from chicken meat, slathered in a bowl of spices and grilled to perfection.These kebabs are perfect as a starter for an amazing dinner party. Served with mint chutney and a side of onion rings and lemon wedges, you won't need anything else to start the party!</p>
+            </div>
+            <div class="btn">
+                <a style="font-size: medium;">RS:160 per Plate</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/tikka.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Chicken Chest Tikka</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">Tender of pieces of chicken are marinated in Indian spices like tandoori masala, red chilli powder, garam masala, ginger-garlic paste and more and cooked in a tandoor to give us the beloved chicken tikka.</p>
+            </div><br><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:250 Chest Piece</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/chicken-malai-boti_2133.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Malai Boti</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">Succulent chunks of chicken wrapped in creamy textures of cheese, cream cheese and sour cream along with spices and a generous squeeze of lime.</p>
+            </div><br><br><br><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:200 per Plate</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/seekh boti.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Seekh Boti</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">Any party is incomplete without some delicious appetizers to kick start with and there would be no better option than some hot, grilled or roasted seekh boti. These boti made from chicken meat, slathered in a bowl of spices and grilled to perfection.These boti are perfect as a starter for an amazing dinner party. Served with mint chutney and a side of onion rings and lemon wedges, you won't need anything else to start the party!</p>
+            </div>
+            <div class="btn">
+                <a style="font-size: medium;">RS:180 per Plate</a>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+    
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    <div class="container">
+      <center><h1 style="font-size:45px;background-color: grey;width: 400px;">FAST FOOD</h1></center>
+    </div>
+    
+    <div class="container">
+        <div class="item">
+            <div class="img">
+                <img src="images/zinger.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Zinger Burger</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">A well-seasoned, crispy fried chicken fillet slathered with a special burger sauce, topped with a slice of Cheddar cheese, finished off with Romaine lettuce and put inside a soft Broiche bun; this is what dreams are made of. And I am gonna make these dreams come true with this fool-proof, incredibly mouth-watering recipe of Zinger Burger.</p>
+            </div><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:250</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/club_sandwich_.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Club Sandwich</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">A club sandwich, also called a clubhouse sandwich, is a sandwich of bread (traditionally toasted), sliced cooked poultry, ham or fried bacon, lettuce, tomato, and mayonnaise.It is often cut into quarters or halves and held together by cocktail sticks. Modern versions frequently have two layers which are separated by an additional slice of bread.</p>
+            </div><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:300</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/shawarma.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Chicken Shawarma</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">Shawarma is vastly popular across the middle-east, specially Lebanon. Now a popular street food as well, chicken shawarma has quickly garnered appreciation across the globe, particularly in India. You can prepare this easy shawarma at home as a side dish for brunch or for evening snacks.For making Shawarma Chicken baked in a yogurt marinade, rolled up in pita bread and served with tahini or mayonnaise. This seems like the perfect dish for your evening binge eating.
+                </p>
+            </div>
+            <div class="btn">
+                <a style="font-size: medium;">RS:180</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/zinger roll.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Zinger Roll</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">Chicken baked in a yogurt marinade, rolled up in pita bread and served with tahini or mayonnaise. This seems like the perfect dish for your evening binge eating.
+                </p>
+            </div><br><br><br><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:220</a>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+    
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    <div class="container">
+      <center><h1 style="font-size:45px;background-color: grey;width: 400px;">RICE</h1></center>
+    </div>
+    
+    <div class="container">
+        <div class="item">
+            <div class="img">
+                <img src="images/biryani.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Chicken Biryani</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">An authentic Mughalai dish, Biryani is an aromatic delicacy loved by all. This dum biryani recipe is scumptuous chicken biryani that is cooked with utmost precision that you are bound to make this dish again and again to relish the delightful flavours. A quick and easy home made biryani is something you cannot escape.For Mmaking biryani Cooked in dum style, this chicken biryani is infused in saffron milk and cooked in spices such as cardamom, clove and cinnamon. Serve this biryani with some spicy salan and you'l have a delectable treat for lunch or dinner!
+                </p>
+            </div>
+            <div class="btn">
+                <a style="font-size: medium;">RS:120 per Plate</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/pulao.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Beef Pulao</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">Meat cooked with rice and spices. This mutton pulao recipe with the aroma of peppercorns, cardamom and cinnamon.</p>
+            </div><br><br><br><br><br><br><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:140 per Plate</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/chinese rice.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1 >Freid Rice</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">A great way to use some leftover steamed rice! Easy, quick and delicious fried rice recipe that kids and adults would love alike. Nutritious veggies are sauteed with garlic, chilli and steamed rice along with oriental sauces. Savoury rice in just 20 minutes with goodness of veggies. You can serve this vegetable fried rice with a lip smacking spicy curry for lunch as well as dinner. Enjoy this delicacy!</p>
+            </div><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:220 per Plate</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/zarda.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Zarda</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">Sweet Saffron Rice Recipe: Janmashtami is one of the most significant festivals of India. On this day, devotees prepare a variety of prasads to pay their obeisance to the deity.</p>
+            </div><br><br><br><br><br><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:80 per Plate</a>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+    
+    
+    <br>
+    <br>
+    <br>
+    
+ <div class="container">
+      <center><h1 style="font-size:45px;background-color: grey;width: 400px;">SHAKES</h1></center>
+    </div>
+    
+    <div class="container">
+        <div class="item">
+            <div class="img">
+                <img src="images/Falooda.webp" alt="">
+            </div>
+            <div class="h1">
+                <h1>Falooda</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">A falooda is a Mughlai Indian version of a cold dessert made with noodles.It has origins in the Persian dish faloodeh, variants of which are found across West, Central, and South Asia.Traditionally it is made by mixing rose syrup, vermicelli, and sweet basil seeds with milk, often served with ice cream.The vermicelli used for preparing falooda is made from wheat,arrowroot, cornstarch, or sago.</p>
+            </div>
+            <div class="btn">
+                <a style="font-size: medium;">RS:200 per Glass</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/banana shake.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Banana MilkShake</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">This banana milkshake recipe includes sweet bananas and coconut milk for a rich and creamy consistency that everyone (especially kids) will love. Plus we add a bit of vanilla and cinnamon for an extra delicious drink that’s perfect for breakfast, as a snack, or even for a healthy dessert. This banana shake recipe is vegan.</p>
+            </div><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:150 per Glass</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/chocolate.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Chocolate MilkShake</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">We usually serve our guests soft drinks because they are more accessible than chocolate shakes. For once, serve these shakes and surprise your guests with the unexpected.</p>
+            </div><br><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:250 per Glass</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="images/dry-fruits-milkshake.jpg" alt="">
+            </div>
+            <div class="h1">
+                <h1>Dry Fruit MilkShake</h1>
+            </div>
+            <div class="p">
+                <p style="font-weight: bold;">Craving a chilled glass of a thick milkshake? We have got the best of milkshake recipes for you to prepare and relish in the comfort of your home.Think of creamy, decadent strawberry shake to a rich hazelnut milkshake to satiate your soul!</p>
+            </div><br><br><br>
+            <div class="btn">
+                <a style="font-size: medium;">RS:300 per Glass</a>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+    
+    
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <center><h1 style="font-size:45px;background-color: grey;width: 400px;">CAKES</h1></center>
+      </div>
+      
+      <div class="container">
+          <div class="item">
+              <div class="img">
+                  <img src="images/Dry-Fruit-Cake-1.jpg" alt="">
+              </div>
+              <div class="h1">
+                  <h1>Dry Fruit Cake</h1>
+              </div>
+              <div class="p">
+                  <p style="font-weight: bold;">Bursting with the flavour of dry fruits, soaked in brandy, the traditional christmas cake takes a bit of effort but each delicious bite makes it worth your while.</p>
+              </div><br><br><br><br><br><br><br><br>
+              <div class="btn">
+                  <a style="font-size: medium;">1 pound=RS:950</a>
+              </div>
+          </div>
+          <div class="item">
+              <div class="img">
+                  <img src="images/chocolate cake.jpg" alt="">
+              </div>
+              <div class="h1">
+                  <h1>Chocolate Cake</h1>
+              </div>
+              <div class="p">
+                  <p style="font-weight: bold;">When this best chocolate cake comes out of the oven, the tops of the layers are actually shiny and slightly crackled almost like a brownie. That’s how fudgy it is.</p>
+              </div><br>
+              <div class="btn"><br><br><br><br><br><br><br>
+                  <a style="font-size: medium;">1 pound=RS:950</a>
+              </div>
+          </div>
+          <div class="item">
+              <div class="img">
+                  <img src="images/easy-vanilla-butter-cake_1980x1320-118393-1.jpg" alt="">
+              </div>
+              <div class="h1">
+                  <h1>Butter Cake</h1>
+              </div>
+              <div class="p">
+                  <p style="font-weight: bold;">A butter cake is a cake in which one of the main ingredients is butter. Butter cake is baked with basic ingredients: butter, sugar, eggs, flour, and leavening agents such as baking powder or baking soda. It is considered one of the quintessential cakes in American baking.</p>
+              </div><br><br><br><br><br><br>
+              <div class="btn">
+                  <a style="font-size: medium;">1 pound=RS:200</a>
+              </div>
+          </div>
+          <div class="item">
+              <div class="img">
+                  <img src="images/blueberry-cheesecake.jpg" alt="">
+              </div>
+              <div class="h1">
+                  <h1>Strawberry Cheesecake</h1>
+              </div>
+              <div class="p">
+                  <p style="font-weight: bold;">This Strawberry Cheesecake is a stunner! Based on my classic Baked Cheesecake which I describe as a magically rich-yet-light, finished with a gorgeous strawberry topping that tastes as amazing as it looks.You’ll love how the sauce slowly drips down the cheesecake with every bite, and how the filling is creamy and rich, but it’s a bit fluffy rather than heavy and dense. And because I love the biscuit base so much, I’ve made it go aalll the way up the sides….</p>
+
+              </div>
+              <div class="btn">
+                  <a style="font-size: medium;">1 pound=RS:1150</a>
+              </div>
+          </div>
+         
+          </div>
+      </div>
+      
+      
+      <br>
+      <br>
+      <br>
+      
+    
+    <div class="container-fluid"  style="background-color: black;">
+        <div class="container">
+        <div class="footer-bottom">
+          <br>
+          <center>
+       <h3 style="color: #f2f2f2; text-align: center;">Connect with us on our social platforms</h3>
+      <br>
+      <br>
+      
+      
+      <a href="https://www.facebook.com/profile.php?id=100004272765560" style="text-align: center;"><i class="fa fa-facebook" style="font-size:40px; color:blue;"></i></a>&nbsp&nbsp&nbsp&nbsp
+      <a href="https://www.instagram.com/ig____abdullah/?hl=en" style="text-align: center;"><i class="fa fa-instagram" style="font-size:40px; color:palevioletred;"></i></a>&nbsp&nbsp&nbsp&nbsp
+      <a href="https://twitter.com/ig____abdullah" style="text-align: center;"><i class="fa fa-twitter" style="font-size:40px; color:lightblue;"></i></a>&nbsp&nbsp&nbsp&nbsp
+      
+      </center>
+      
+      
+   
+    
+      </div>
+    </div>
+    </div>
+    
+    
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    
+    </body>
+
+</html>

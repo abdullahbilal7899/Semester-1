@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>MEDIA QUERY</title>
+  
+    <link rel='stylesheet' href='index.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+  <div class="container">
+      <div class="item">
+          <div class="img">
+              <img src="Images/download.jfif">
+            </div>
+            <div class="heading">
+                <h1>Product Name Here</h1>
+            </div>
+           
+            <div class="btn">
+                <a href="#">Product Details</a>
+            </div>
+      </div>
+
+      <div class="item">
+        <div class="img">
+            <img src="Images/download.jfif">
+          </div>
+          <div class="heading">
+              <h1>Product Name Here</h1>
+          </div>
+         
+          <div class="btn">
+              <a href="#">Product Details</a>
+          </div>
+    </div>
+
+    <div class="item">
+        <div class="img">
+            <img src="Images/download.jfif">
+          </div>
+          <div class="heading">
+              <h1>Product Name Here</h1>
+          </div>
+         
+          <div class="btn">
+              <a href="#">Product Details</a>
+          </div>
+    </div>
+
+    <div class="item">
+        <div class="img">
+            <img src="Images/download.jfif">
+          </div>
+          <div class="heading">
+              <h1>Product Name Here</h1>
+          </div>
+        
+          <div class="btn">
+              <a href="#">Product Details</a>
+          </div>
+    </div>
+
+  </div>
+  
+  <br><br>
+  <div class="container1">
+    <div class="item1">
+        <div class="img">
+            <img src="Images/download.jfif">
+          </div>
+          <div class="heading">
+              <h1>Product Name Here</h1>
+          </div>
+         
+          <div class="btn">
+              <a href="#">Product Details</a>
+          </div>
+    </div>
+
+    <div class="item1">
+      <div class="img">
+          <img src="Images/download.jfif">
+        </div>
+        <div class="heading">
+            <h1>Product Name Here</h1>
+        </div>
+       
+        <div class="btn">
+            <a href="#">Product Details</a>
+        </div>
+  </div>
+
+  <div class="item1">
+      <div class="img">
+          <img src="Images/download.jfif">
+        </div>
+        <div class="heading">
+            <h1>Product Name Here</h1>
+        </div>
+       
+        <div class="btn">
+            <a href="#">Product Details</a>
+        </div>
+  </div>
+
+  <div class="item1">
+      <div class="img">
+          <img src="Images/download.jfif">
+        </div>
+        <div class="heading">
+            <h1>Product Name Here</h1>
+        </div>
+      
+        <div class="btn">
+            <a href="#">Product Details</a>
+        </div>
+  </div>
+
+</div>
+
+
+<div class="container2">
+    <div class="item2">
+        <div class="img">
+            <img src="Images/download.jfif">
+          </div>
+          <div class="heading">
+              <h1>Product Name Here</h1>
+          </div>
+         
+          <div class="btn">
+              <a href="#">Product Details</a>
+          </div>
+    </div>
+    
+    <div class="item2">
+        <div class="img">
+            <img src="Images/download.jfif">
+          </div>
+          <div class="heading">
+              <h1>Product Name Here</h1>
+          </div>
+         
+          <div class="btn">
+              <a href="#">Product Details</a>
+          </div>
+    </div>
+    
+    <div class="item2">
+        <div class="img">
+            <img src="Images/download.jfif">
+          </div>
+          <div class="heading">
+              <h1>Product Name Here</h1>
+          </div>
+        
+          <div class="btn">
+              <a href="#">Product Details</a>
+          </div>
+    </div>
+    <div class="item2">
+        <div class="img">
+            <img src="Images/download.jfif">
+          </div>
+          <div class="heading">
+              <h1>Product Name Here</h1>
+          </div>
+        
+          <div class="btn">
+              <a href="#">Product Details</a>
+          </div>
+    </div>
+    
+    </div>
+  
+
+<button onclick="bnn()" id="bt1">See More</button>
+<button onclick="bn()" id="bt">See More</button>
+
+<script>
+function bn(){
+
+    var btn =document.getElementById("bt");
+
+    
+    if(btn.innerHTML == "See More"){
+
+     $(document).ready(function(){
+    $(".item1").show();
+
+   
+ });
+
+ $(document).ready(function(){
+    $("#bt").hide();
+    $("#bt1").show();
+ });
+
+ btn.innerHTML="See Less";
+
+
+  }
+     else{
+
+        $(document).ready(function(){
+    $(".item1").hide();
+    
+     });
+
+     btn.innerHTML="See More";
+
+}
+}
+
+function bnn(){
+    var btn1 =document.getElementById("bt1");
+
+    if(btn1.innerHTML == "See More"){
+
+$(document).ready(function(){
+$(".item2").show();
+
+
+});
+
+btn1.innerHTML = "See Less"
+
+
+}
+else{
+    $(document).ready(function(){
+$(".item2").hide();
+
+});
+$(document).ready(function(){
+    $("#bt").show();
+    $("#bt1").hide();
+ });
+
+ btn1.innerHTML="See More"
+}
+
+}
+   
+</script>
+    
+</body>
+</html>

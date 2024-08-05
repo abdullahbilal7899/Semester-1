@@ -1,0 +1,43 @@
+Convert from Feet to Meters	m=ft/3.2808	
+Convert from Feet to Inches	in=ft*12	
+Convert from Feet to cm		cm=ft/0.032808	
+Convert from Feet to Yards	yd=ft*0.33333	
+Convert from Feet to Kilometers	km=ft/3280.8	
+Convert from Feet to Miles	mi=ft*0.00018939	
+
+
+Convert from Meters to Feet	ft=m*3.2808	
+Convert from Meters to Inches	in=m*39.370	
+Convert from Meters to cm	cm=m/0.01	
+Convert from Meters to Yards	yd=m*1.0936	
+Convert from Meters to Kilometers	km=m/1000	
+Convert from Meters to Miles	mi=m*0.00062137
+
+Convert from Inches to Feet	ft=in*0.083333	
+Convert from Inches to Meters	m=in/39.370	
+Convert from Inches to cm	cm=in/0.39370	
+Convert from Inches to Yards	yd=in*0.027778	
+Convert from Inches to Kilometers	km=in/39370	
+Convert from Inches to Miles	mi=in*0.000015783
+
+Convert from cm to Feet	ft=cm*0.032808	
+Convert from cm to Meters	m=cm/100	
+Convert from cm to Inches	in=cm*0.39370	
+Convert from cm to Yards	yd=cm*0.010936	
+Convert from cm to Kilometers	km=cm/100000	
+Convert from cm to Miles	mi=cm*0.0000062137	
+
+Convert from Pounds to Kilograms	kg=lb/2.2046	
+Convert from Pounds to Ounces	oz=lb*16	
+Convert from Pounds to Grams	g=lb/0.0022046	
+Convert from Pounds to Stones	st=lb*0.071429
+
+Convert from Kilograms to Pounds	lb=kg*2.2046	
+Convert from Kilograms to Ounces	oz=kg*35.274	
+Convert from Kilograms to Grams	g=kg*1000	
+Convert from Kilograms to Stones	st=kg*0.1574
+
+Convert from Grams to Pounds	lb=g*0.0022046	
+Convert from Grams to Kilograms	kg=g/1000	
+Convert from Grams to Ounces	oz=g*0.035274	
+Convert from Grams to Stones	st=g*0.00015747

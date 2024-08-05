@@ -1,0 +1,51 @@
+create table lands
+(
+id int identity primary key not null,
+Adress nvarchar(50) not null,
+PurchasingCost nvarchar(20) not null,
+PresentCost nvarchar(20) not null,
+area nvarchar(20) not null,
+dateofPurchase date not null,
+locationDetails varchar(20) not null ,
+)
+
+create procedure insert_land
+@Adress nvarchar(50),
+@PurchasingCost nvarchar(20),
+@PresentCost nvarchar(20),
+@area nvarchar(20),
+@dateofPurchase date,
+@locationDetails varchar(20)
+as
+insert into lands values(@Adress,@PurchasingCost,@PresentCost,@area,@dateofPurchase,@locationDetails)
+
+create procedure update_land
+@Adress nvarchar(50),
+@PurchasingCost nvarchar(20),
+@PresentCost nvarchar(20),
+@area nvarchar(20),
+@dateofPurchase date,
+@locationDetails varchar(20),
+@id int
+as
+update lands
+set
+Adress=@Adress,
+PurchasingCost=@PurchasingCost,
+PresentCost=@PresentCost,
+area=@area,
+dateofPurchase=@dateofPurchase,
+locationDetails=@locationDetails
+where
+id = @id
+
+
+
+create procedure delete_land
+@id int
+as
+delete from lands where id=@id
+
+create procedure get_lands
+as
+select Adress as 'Address',PurchasingCost as 'Purchasing-Cost',PresentCost as 'Present-Cost',area as 'Area',dateofPurchase as 'DateOfPurchase',locationDetails as 'Location' from lands

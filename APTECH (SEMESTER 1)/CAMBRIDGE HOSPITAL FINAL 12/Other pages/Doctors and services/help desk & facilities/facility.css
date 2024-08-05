@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+ body{
+	 font-family:tahoma;
+	
+ }
+ .hero {
+	 position:absolute;
+	 width:100%;
+	 top:50%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+ }
+	 
+ h1 {
+	 color:white;
+ }
+ h1:hover{
+	 color:#e67e22;
+	 cursor:crosshair;
+	 transition:all 0.5s ease-in;
+	 
+ }
+ 
+ .row {
+	 max-width:1140px;
+	 margin:0 auto;
+ }
+ 
+header {
+	 background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(operating.jpg);
+	 height:100vh;
+	 background-position:center;
+	 background-size:cover;
+	
+ }
+ /*NAV BAR*/
+  ul#main-nav, ul.sub1, ul.sub2 {
+		 list-style-type:none;
+		 float:right;
+		 margin-top:20px;
+		 
+  }
+  ul#main-nav li {
+	  
+	  display:inline-block;
+	  margin-left:10px;
+	  position:relative;
+  }
+  ul#main-nav ul.sub1 {
+	display:none;
+	position:absolute;
+	top:20px;
+	left:0px;
+	
+
+}
+ul#main-nav li a {
+	  color:white;
+	  text-decoration:none;
+	  font-size:80%;
+	  font-weight:bold;
+  }
+  ul#main-nav li a:hover {
+	  color:#e67e22;
+	  transition:all 0.5s ease-in;
+	  padding:12px 0;
+  }
+  ul#main-nav ul.sub1 {
+	display:none;
+	position:absolute;
+	top:5px;
+	left:0px;
+	
+
+}
+  ul#main-nav li:hover .sub1{
+	display:block;
+
+}
+
+
+/*LOGO CSS*/
+  
+   .logo img {
+	  height:100px;
+	  float:left;
+	  margin-top:10px; 
+  }
+  
+  .btn{
+	  border:1px solid #e67e22;
+	  padding:10px 30px;
+	  color:#e67e22;
+	  text-decoration:none;
+	  border-radius:12px;
+	  margin-right:15px;
+  }
+  .button-awesome{
+	  margin-top:40px;
+  }
+  .btn-half{
+	  background-color:#e67e22;
+	  color:white;
+  }
+  .btn-full:hover {
+	  background-color:#e67e22;
+	  color:white;
+	  transition:all 0.5s ease-in;
+  }
+   .copy {
+	  width:70%;
+	  margin-left:5%;
+	  text-align:justify;
+	  margin-bottom:20px;
+	  
+  }
+   h3 {
+	  margin-top:80px;
+	  margin-bottom:30px;
+  }
+  h3:after{
+	  width:150px;
+	  height:2px;
+	  background-color:#e67e22;
+	  display:block;
+	  content:" ";
+	  margin:0 auto;
+	  margin-top:30px;
+	 
+  }
+  footer{
+	  background-color:#EEEDED;
+	  width:auto;
+	  height:200%;
+	  margin-top:10%;
+	  padding:50p%;
+	  border-top:1px solid #e67322;
+  }
+

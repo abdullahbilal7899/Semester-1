@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#000;
+}
+
+#header{
+	  width:auto;
+	  height:150px;
+	  border:1px solid #C09;
+	  border-bottom-style:dashed;
+	  border-top-style:dashed;
+}
+
+#menu{
+	width:auto;
+	height:50px;
+	background-color:#c09;
+}
+#menu ul{
+	list-style:none;
+}
+#menu ul li{
+	float:left;
+	line-height:50px;
+	margin-left:100px;
+	color:#CCC;
+	font-weight:lighter;
+	border-bottom-style:groove;
+}
+#menu ul li:hover{
+	background-color:white;
+	cursor:pointer;
+	opacity:0.7;
+	filter:alpha (opacity=70); /*IE8 earlier */
+
+
+	
+
+}
+#menu ul ul {
+	display:none;
+	top:0px;
+}
+#menu ul li:hover >ul{
+	display:list-item;
+	margin-left:0px;
+
+}
+#menu ul ul ul {
+	width:auto;
+	top:0px;
+	posiotion:absolute;
+}
+#box{
+	width:500px;
+	height:320px;
+	margin-left:160px;
+	margin-top:10px;
+	float:left;
+}
+#box1{
+	width:170px;
+	height:320px;
+	margin-top:10px;
+	float:left;
+}
+#title{
+	font-size:large;
+	color:#FFF;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:overline;
+	text-align:right;
+	padding:10px;
+}
+#box2{
+	width:300px;
+	height:320px;
+	margin-top:10px;
+	float:left;
+	margin-left:30px;
+}
+#box3 {
+	width:200px;
+	height:250px;
+	margin-top:10px;
+	float:left;
+	margin-left:160px;
+}
+#box4 {
+	width:200px;
+	height:250px;
+	margin-top:10px;
+	float:left;
+	margin-left:40px;
+}
+#box5 {
+	width:200px;
+	height:250px;
+	margin-top:10px;
+	float:left;
+	margin-left:40px;
+}
+#box6 {
+	width:200px;
+	height:250px;
+	margin-top:10px;
+	float:left;
+	margin-left:40px;
+}
+	
+
+#footer {
+	width:auto;
+	height:350px;
+	background-color:#c09;
+	margin-top:800px;
+	opacity:0.7;
+    border-top-style:groove;
+}
+#fbox{
+	width:200px;
+	height:250px;
+	margin-left:120px;
+	float:left;
+}
+#fbox1{
+	width:200px;
+	height:250px;
+	margin-left:90px;
+	float:left;
+}
+#fbox2{
+	width:200px;
+	height:250px;
+	margin-left:90px;
+	float:left;
+}
+#fbox3{
+	width:200px;
+	height:250px;
+	margin-left:90px;
+	float:left;
+}
+#ffont{
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+	color:#C9F;
+	border-bottom:2px groove black;
+}
+#ffonts{
+	font-size:14px;
+	font-family:"MS Serif", "New York", serif;
+	color:#CCC;
+	text-align:left;
+}
+input[type=text]{
+	width:100%
+	box-sizzing: border-box;
+	border:2px solid #ccc;
+	border-radius: 4px;
+	font-size:16px;
+	background-color:white;
+	background-image:url(search.png);
+	background-repeat:no-repeat;
+	padding: 12px 20px 12px 40px;
+	background-position:right;
+	
+}

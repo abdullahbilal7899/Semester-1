@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+ body{
+	 font-family:tahoma;
+	
+ }
+ 
+
+ header {
+	 background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/team-header.jpg);
+	 height:100%;
+	 background-position:center;
+	 background-size:cover;
+	 background-attachment:fixed;
+	
+ }
+ .hero-text {
+	color:white;
+	text-transform:uppercase;
+	margin-bottom:80px;
+	
+	
+}
+
+
+.header img {
+	margin-bottom:120px;
+}
+
+
+  .navbar-custom {
+	background:transparent;
+}
+
+.icon-bar {
+	background:lightgray;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+	
+		background:transparent;
+}
+
+.navbar-custom .navbar-nav li a {
+	color:white;
+}
+
+.navbar-brand {
+	
+	color:white;
+}
+.navbar-nav li a:hover {
+	  color:#e67e22;
+	  transition:all 0.2s ease-in;
+
+  }	
+  
+   h1:after{
+	  width:120px;
+	  height:3px;
+	  background-color:#e67e22;
+	  display:block;
+	  content:" ";
+	  margin:0 auto;
+	  margin-top:10px;
+	  
+	 
+  }
+  
+  .cities {
+	  font-family:"Comic Sans MS", cursive;
+  }
+  .copy {
+	  width:70%;
+	  margin-left:12%;
+	  text-align:justify;
+	  margin-bottom:20px;
+	  
+	  
+   }
+   .pic {
+	   width:100%;
+   }
+ 
+	 
+ 
+ 
+  #box{
+	  width:auto;
+	  height:150px;
+      border-bottom:solid #C60;	
+  }
+  
+  
+  -->footer >
+
+.bottom {
+  background-color: none;
+}
+.bottom .container {
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/129642659.jpg);
+  min-height: 150px;
+  padding-top:500;
+  width:auto;
+}
+.bottom .container h2 {
+  color: #C60;
+  font-size:20px;
+}
+
+.bottom .container h2:hover {
+  text-decoration:none;
+  cursor:pointer;
+}
+.bottom .container p {
+  color: #C60;
+}
+
+.bottom .container p:hover {
+  /* color: #FFF; */
+  cursor:pointer;
+}
+
+.bottom .container h4 {
+  color: #C60;
+}
+
+
+	
+
+
+	

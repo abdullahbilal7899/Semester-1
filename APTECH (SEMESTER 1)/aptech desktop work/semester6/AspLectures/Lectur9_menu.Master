@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Lectur9_menu.Master.cs" Inherits="AspLectures.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Menu ID="Menu1" runat="server" BackColor="#996633" DynamicHorizontalOffset="2" Font-Names="Calibri" Font-Size="Large" ForeColor="White"  Orientation="Horizontal" StaticSubMenuIndent="10px" BorderColor="#996633" BorderStyle="Ridge" Font-Bold="True" StaticEnableDefaultPopOutImage="False">
+            <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#F7F6F3" />
+            <DynamicSelectedStyle BackColor="#5D7B9D" />
+            <Items>
+                <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/Lecture8_Validators.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="PRODUCTS" Value="PRODUCTS">
+                    <asp:MenuItem NavigateUrl="~/Lecture6_MultiviewandView.aspx" Text="A" Value="A"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Lecture7_wizardControl.aspx" Text="B" Value="B"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="CONTACT" Value="CONTACT"></asp:MenuItem>
+                <asp:MenuItem Text="ABOUT" Value="ABOUT"></asp:MenuItem>
+            </Items>
+            <StaticHoverStyle BackColor="#FF9900" ForeColor="White" Font-Bold="True" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#5D7B9D" />
+        </asp:Menu>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

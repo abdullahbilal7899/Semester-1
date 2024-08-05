@@ -1,0 +1,26 @@
+<fulfillmentToken fulfillmentType="buy" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:5912a286-0752-4058-830e-0a95d23cb627</distributor>
+  <operatorURL>http://www.e-shabda.com:8081/fulfillment</operatorURL>
+  <transaction>206790005</transaction>
+  <expiration>2018-11-24T00:09:25+05:30</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:e06c5340-e7ab-4e8c-9983-a7792a73a307</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Windows Store Apps Development - I</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aptech</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Aptech</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:e06c5340-e7ab-4e8c-9983-a7792a73a307</resource>
+      <permissions>
+        <display/>
+        <excerpt/>
+        <print/>
+        <play/>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>cotITYQGpjSxzuB4CnFz3V+z9Aw=</hmac>
+</fulfillmentToken>

@@ -1,0 +1,18 @@
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.exe.config
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.Form1.resources
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.exe
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.pdb
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.Properties.Resources.resources
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.exe
+c:\users\computer house\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.pdb
+C:\Users\computer house\Desktop\Game\Game\bin\Debug\Game.exe.config
+C:\Users\computer house\Desktop\Game\Game\obj\Debug\Game.exe
+C:\Users\computer house\Desktop\Game\Game\obj\Debug\Game.pdb
+C:\Users\computer house\Desktop\Game\Game\bin\Debug\Game.exe
+C:\Users\computer house\Desktop\Game\Game\bin\Debug\Game.pdb
+C:\Users\computer house\Desktop\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\computer house\Desktop\Game\Game\obj\Debug\Game.Form1.resources
+C:\Users\computer house\Desktop\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\computer house\Desktop\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache

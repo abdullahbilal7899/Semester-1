@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-size:100%;
+	margin:0px;
+}
+.header{
+	background-image: url(../images/heart%20center/header2.PNG);
+	background-size:100%;
+	margin:0px;
+	background-repeat:no-repeat;
+	height:300;
+}
+.hdiv{
+	margin:0px;
+	background-color:#000;
+	opacity:0.7;
+	height:300;
+	color:#FFF;
+}
+h1{
+	font-size: 56px;}
+
+input[type=text1] {
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(Untitled-1.PNG);
+    background-position: 2px 2px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.gallery {
+	height:1%;
+	margin-left:7%;
+    float: left;
+    width: 30%;
+	margin-top:3%;
+	margin-bottom:20%;
+} 
+
+.gallery{
+	background-color: #ccc;
+}
+
+.gallery img {
+    width: 100%;
+	height:auto;
+}
+
+.desc {
+    padding: 1%;
+    text-align: center;
+}
+
+
+.head{
+	margin-left:2%;
+	margin-top:5%;
+}
+.p1{
+	margin-left:2%;
+	font-size:15px;
+	margin-top:0px
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	margin-top:0px;
+}
+
+div {
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+	opacity:0.80;
+	border-radius:4px;
+}
+
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.cancer1{
+	background-color:#FFF;
+}
+
+.cancer2{
+	border:1px solid #333;
+	color:#000;
+	width:45%;
+	height:35%;
+	margin-left:25%;
+	background-color: #FFF;
+}
+.cancer3{
+	background-color: #CCC;
+}
+
+.surgery1{
+	background-color:#FFF;
+}
+
+.surgery2{
+	color:#000;
+	width:45%;
+	height:20%;
+	margin-left:25%;
+	background-color: #FFF;
+}
+.surgery3{
+	background-color: #CCC;
+}
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+	padding-bottom:100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 90%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+a{
+	text-decoration:none;
+	color:#000;}
+	
+	
+	

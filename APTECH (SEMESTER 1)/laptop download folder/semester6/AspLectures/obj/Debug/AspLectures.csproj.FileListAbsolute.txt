@@ -1,0 +1,120 @@
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\csc.exe
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\vbc.exe
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\AspLectures.dll.config
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\AspLectures.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\AspLectures.pdb
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\obj\Debug\AspLectures.dll
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\obj\Debug\AspLectures.pdb
+C:\Users\asp.APTECHNK\documents\visual studio 2015\Projects\AspLectures\AspLectures\obj\Debug\AspLectures.csprojResolveAssemblyReference.cache
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\csc.exe
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\vbc.exe
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\VBCSCompiler.exe
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\AspLectures.dll.config
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\AspLectures.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\AspLectures.pdb
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\computer house\Desktop\AspLectures\AspLectures\obj\Debug\AspLectures.csprojResolveAssemblyReference.cache
+C:\Users\computer house\Desktop\AspLectures\AspLectures\obj\Debug\AspLectures.dll
+C:\Users\computer house\Desktop\AspLectures\AspLectures\obj\Debug\AspLectures.pdb
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\csc.exe
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\vbc.exe
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\AspLectures.dll.config
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\AspLectures.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\AspLectures.pdb
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\obj\Debug\AspLectures.csprojResolveAssemblyReference.cache
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\obj\Debug\AspLectures.dll
+C:\Users\asp.APTECHNK\Desktop\AspLectures\AspLectures\obj\Debug\AspLectures.pdb
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\csc.exe
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\vbc.exe
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\VBCSCompiler.exe
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\AspLectures.dll.config
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\AspLectures.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\AspLectures.pdb
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\obj\Debug\AspLectures.csprojResolveAssemblyReference.cache
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\obj\Debug\AspLectures.dll
+C:\Users\computer house\Desktop\semester6\semester6\AspLectures\obj\Debug\AspLectures.pdb
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\csc.exe
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\vbc.exe
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\AspLectures.dll.config
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\AspLectures.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\AspLectures.pdb
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\obj\Debug\AspLectures.csprojResolveAssemblyReference.cache
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\obj\Debug\AspLectures.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\semester6\AspLectures\obj\Debug\AspLectures.pdb
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\csc.exe
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\vbc.exe
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\AspLectures.dll.config
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\AspLectures.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\AspLectures.pdb
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\obj\Debug\AspLectures.csprojResolveAssemblyReference.cache
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\obj\Debug\AspLectures.dll
+C:\Users\asp.APTECHNK\Desktop\semester6\AspLectures\obj\Debug\AspLectures.pdb

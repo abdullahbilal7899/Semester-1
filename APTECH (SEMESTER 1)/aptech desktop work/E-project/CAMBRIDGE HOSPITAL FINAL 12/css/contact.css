@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+ body{
+	 font-family:tahoma;
+	
+ }
+ .hero {
+	 position:absolute;
+	 width:1140px;
+	 top:90%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+	 font-style:italic;
+ }
+	 
+ h1 {
+	 color:white;
+ }
+ h1:hover{
+	 color:#e67e22;
+	 cursor:crosshair;
+	 transition:all 0.5s ease-in;
+	 
+ }
+ 
+ .row {
+	 max-width:1140px;
+	 margin:0 auto;
+ }
+ 
+ header {
+	 background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imag.jpg);
+	 height:100vh;
+	 background-position:center;
+	 background-size:cover;
+	
+ }
+  ul#main-nav, ul.sub1, ul.sub2 {
+		 list-style-type:none;
+		 float:right;
+		 margin-top:20px;
+		 
+  }
+  ul#main-nav li {
+	  
+	  display:inline-block;
+	  margin-left:10px;
+	  position:relative;
+  }
+  ul#main-nav ul.sub1 {
+	display:none;
+	position:absolute;
+	top:20px;
+	left:0px;
+	
+
+}
+ul#main-nav li a {
+	  color:white;
+	  text-decoration:none;
+	  font-size:80%;
+	  font-weight:bold;
+  }
+  ul#main-nav li a:hover {
+	  color:#e67e22;
+	  transition:all 0.5s ease-in;
+	  padding:12px 0;
+  }
+  ul#main-nav ul.sub1 {
+	display:none;
+	position:absolute;
+	top:5px;
+	left:0px;
+	
+
+}
+  ul#main-nav li:hover .sub1{
+	display:block;
+
+}
+
+
+
+  
+   .logo img {
+	  height:100px;
+	  float:left;
+	  margin-top:10px; 
+  }
+  
+  #box {
+	  width:550px;
+	  height:650px;
+	  background-color:#EEEDEE;
+	  margin-left:80px;
+	  float:left;
+	  margin-top:80px;
+	  background-image:url(capture.png);
+	  background-size:cover;
+	  background-attachment:fixed;
+  }
+  #box1 {
+	  width:550px;
+	  height:650px;
+	  background-color:#EEEDEE;
+	 
+	  float:left;
+	  margin-top:80px;
+	  background-image:url(capture.png);
+	  background-size:cover;
+	  background-attachment:fixed;
+  }
+  input[type=text],select {
+	width:44%;
+	padding:2px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #333;
+
+	box-sizing:border-box;
+}
+ footer{
+	  background-color:#EEEDED;
+	  width:auto;
+	  height:200px;
+	  margin-top:60px;
+	  padding:50px;
+	  border-top:1px solid #e67322;
+  }
+  a:hover{
+	  color:#e67e22;
+	  text-decoration:none;
+  }

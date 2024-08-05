@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+	 background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imag.jpg);
+	 height:100vh;
+	 background-position:center;
+	 background-size:cover;
+	
+ }
+.box {
+	  width:600px;
+	  height:650px;
+	  background-color:#EEEDEE;
+	  margin-left:px;
+	  float:left;
+	  margin-top:80px;
+	  background-image:url(shutterstock_130130018.jpg);
+	  background-size:cover;
+	  background-attachment:fixed;
+	  opacity:0.9;
+	  margin-bottom:40px;
+	  
+	  
+  }
+  .box1 {
+	  width:600px;
+	  height:650px;
+	  background-color:#EEEDEE;
+	 
+	  float:left;
+	  margin-top:80px;
+	  background-image:url(shutterstock_130130018.jpg);
+	  background-size:cover;
+	  background-attachment:fixed;
+	  opacity:0.9;
+	  margin-bottom:40px;
+	  
+	 
+  }
+  input[type=text],select {
+	width:40%;
+	padding:2px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #333;
+
+	box-sizing:border-box;
+	
+}
+.btn-full:hover {
+	  background-color:#e67e22;
+	  color:white;
+	  transition:all 0.5s ease-in;
+  }
+ input[type=submit] {
+	width:25%;
+	color:white;
+	padding:4px 2px;
+	margin:8px 0;
+	border:none;
+	border-radius:6px;
+	cursor:pointer;
+	margin-top:30px;
+	margin-left:30px;
+}
+input[type=submit]{
+	background-color:#e67e22;
+}
+
+
+
+

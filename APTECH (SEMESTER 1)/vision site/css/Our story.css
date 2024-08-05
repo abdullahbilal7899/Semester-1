@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+ body{
+	 font-family:tahoma;
+	
+ }
+ 
+
+header {
+	 background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/header-our-story.jpg);
+	 height:100%;
+	 background-position:center;
+	 background-size:cover;
+	 background-attachment:fixed;
+	
+ }
+ .hero-text {
+	color:white;
+	text-transform:uppercase;
+	margin-bottom:80px;
+	
+	
+}
+
+
+.header img {
+	margin-bottom:120px;
+}
+
+
+  .navbar-custom {
+	background:transparent;
+}
+
+.icon-bar {
+	background:lightgray;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+	
+		background:transparent;
+}
+
+.navbar-custom .navbar-nav li a {
+	color:lightgray;
+}
+
+.navbar-brand {
+	
+	color:lightgray;
+}
+.navbar-nav li a:hover {
+	  color:#e67e22;
+	  transition:all 0.2s ease-in;
+
+  }	
+ 
+  
+  .copy {
+	  width:70%;
+	  font-family:"Comic Sans MS", cursive;
+	  text-align:center;
+	  margin-left:15%;
+	  color:#e67e22;
+	  font-size:18px;
+	  margin-bottom:80px;
+  }
+  .features h2 {
+	  margin-top:50px;
+	  margin-bottom:30px;
+  }
+  
+ 
+  
+  h3:after{
+	  font-family:"Comic Sans MS", cursive;	  
+	  width:100px;
+	  height:2px;
+	  background-color:#e67e22;
+	  display:block;
+	  content:" ";
+	  margin:0 auto;
+	  margin-top:15px;
+	  
+  }
+  .pic{
+	  width:100%;
+  }
+  
+  
+  
+  .cities {
+	  font-family:"Comic Sans MS", cursive;
+  }
+  .copy1 {
+	  width:70%;
+	  margin-left:12%;
+	  text-align:justify;
+	  margin-bottom:20px;
+	  
+	  
+   }
+	
+.img1{
+    display: block;
+    margin: auto;
+    width: 100%;
+	text-align:center;
+}
+
+h3:after{
+	  font-family:"Comic Sans MS", cursive;	  
+	  width:100px;
+	  height:3px;
+	  background-color:#e67e22;
+	  display:block;
+	  content:" ";
+	  margin:0 auto;
+	  margin-top:10px;
+	  
+  }
+  h3:hover{
+	  text-decoration:none;
+	  color:#C60;
+	  cursor:pointer;
+  }
+
+
+  
+  .box{
+	  width:auto;
+	  height:150px;
+      border-bottom:solid #C60; 
+  }
+  
+  
+   -->footer >
+
+.bottom {
+  background-color: none;
+}
+.bottom .container {
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/129642659.jpg);
+  min-height: 150px;
+  padding-top:500;
+  width:auto;
+}
+.bottom .container h2 {
+  color: #C60;
+  font-size:20px;
+}
+
+.bottom .container h2:hover {
+  text-decoration:none;
+  cursor:pointer;
+}
+.bottom .container p {
+  font-family:"Comic Sans MS", cursive;
+  color: #C60;
+}
+
+.bottom .container p:hover {
+  color: #FFF;
+  cursor:pointer;
+}
+

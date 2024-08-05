@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact us</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="contact us.css">
+        
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+       
+       
+      </head>
+       
+      
+     
+      <!-- Navbar -->
+      <nav style="background-image:url(Images/background.jpg) ;background-repeat: no-repeat;background-size: cover;" class="navbar navbar-default fadeInDown animated">
+        <div class="container">
+          <div class="navbar-header">
+        <img src="Images/new3.png" width="300" height="60">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+         
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="product.html">PRODUCT</a></li>
+              
+                <li class="dropdown dropbtn"><a href="">BRANDS</a>
+              
+              <div class="dropdown-content">
+          <a href="ALIAS.html">Alias</a>
+          <a href="mdf Italia.html">mdf Italia </a>
+          <a href="Porro.html">Porro</a>
+           <a href="Arper.html">Arper</a>
+        </div>
+            
+      </li>
+      <li><a href="our team.html">OUR TEAM</a></li>
+              <li><a href="contact us.html">CONTACT</a></li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav><br><br>
+    </div>
+    <div class="row">
+     <div class="col-md-12">
+     <div class="hero-text text-center">
+     
+     <h2 style="color: black;" > "We Value your  <br>FeedBack.!</h2>
+     </div>
+     </div>
+     </div>
+
+    
+     
+     <section class="cities">
+    <h1 style="color: black;" class="text-center">Contact us</h1>
+    </section>
+    
+    
+    <section class="cities">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+    <div class="company_address">
+                <h3 style="color: black;"><b>Address</h3></b>
+                <p>3011 University Avenue (corner 30th Street) North Park,<br> San Diego, CA 92104</p>
+                <h3 style="color: black;"><b>Phone:</h3></b>
+                <p>(00) 222 666 444</p>
+                <h3 style="color: black;"><b>Email:</h3></b><p><span><link href="#">info@thefurniturehour.com</span></p>
+                <h3 style="color: black;"><b>Opening Hours</h3></b>
+                <h5 style="color: black;"><b>Monday – Friday:</b> <span>9am-6pm</span></h5>
+                <h5 style="color: black;"><b>Saturday: </b><span>10am-4pm</span></h5>
+                <h5 style="color: black;"><b>Sunday: </b><span> 10am-1pm</span></h5>
+             </div>
+             </div>
+             
+            
+            
+            
+            
+            
+    <section class="cities">      
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+    <div class="contact_area">
+    
+    
+    <h3 style="color: black;" class="text-center"><b>FeedBack Form</h3></b>
+    <form>
+    
+    <div class="form-group">
+    <label style="color: black;" for="contact-name">Name</label>
+    <input type="text" class="form-control" id="contact-name" name="name"  placeholder="Enter your name.." onkeyup='validateName()'>
+    <span class='error-message' id='name-error'></span>
+    </div>
+    
+    <div class="form-group">
+    <label style="color: black;" for="contact-phone">Phone Number</label>
+    <input type="tel" class="form-control" id="contact-phone" name="phone" placeholder="Ex: 1231231234" onkeyup='validatePhone()'>
+    <span class='error-message' id='phone-error'></span>
+    </div>
+    
+    <div class="form-group">
+    <label style="color: black;" for="contact-email">Email address</label>
+    <input type="email" class="form-control" id="contact-email" name="email" placeholder="Enter Email" onkeyup='validateEmail()'>
+    <span class='error-message' id='email-error'></span>
+    </div>   
+    
+    <div class="form-group">
+    <label style="color: black;" for='contactMessage'>Your Message</label>
+    <textarea class="form-control" rows="5" id='contact-message'  name='message'  placeholder="Enter a brief message" onkeyup='validateMessage()'>
+    </textarea>
+    <span class='error-message' id='message-error'></span>
+    </div>
+    
+    <button onclick='validateForm()' class="btn btn-success">Submit</button>
+    <span class='error-message' id='submit-error'></span>
+    </form>
+          
+    <script>    
+          function validateName() {
+    
+      var name = document.getElementById('contact-name').value;
+    
+      if(name.length == 0) {
+    
+        producePrompt('Name is required', 'name-error' , 'red')
+        return false;
+    
+      }
+    
+      if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+    
+        producePrompt('First and last name, please.','name-error', 'red');
+        return false;
+    
+      }
+    
+      producePrompt('Valid', 'name-error', 'green');
+      return true;
+    
+    }
+    
+    function validatePhone() {
+    
+      var phone = document.getElementById('contact-phone').value;
+    
+        if(phone.length == 0) {
+          producePrompt('Phone number is required.', 'phone-error', 'red');
+          return false;
+        }
+    
+        if(phone.length != 10) {
+          producePrompt('Include area code.', 'phone-error', 'red');
+          return false;
+        }
+    
+        if(!phone.match(/^[0-9]{10}$/)) {
+          producePrompt('Only digits, please.' ,'phone-error', 'red');
+          return false;
+        }
+    
+        producePrompt('Valid', 'phone-error', 'green');
+        return true;
+    
+    }
+    
+    function validateEmail () {
+    
+      var email = document.getElementById('contact-email').value;
+    
+      if(email.length == 0) {
+    
+        producePrompt('Email Invalid','email-error', 'red');
+        return false;
+    
+      }
+    
+      if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+    
+        producePrompt('Email Invalid', 'email-error', 'red');
+        return false;
+    
+      }
+    
+      producePrompt('Valid', 'email-error', 'green');
+      return true;
+    
+    }
+    
+    function validateMessage() {
+      var message = document.getElementById('contact-message').value;
+      var required = 30;
+      var left = required - message.length;
+    
+      if (left > 0) {
+        producePrompt(left + ' more characters required','message-error','red');
+        return false;
+      }
+    
+      producePrompt('Valid', 'message-error', 'green');
+      return true;
+    
+    }
+    
+    function validateForm() {
+      if (!validateName() || !validatePhone() || !validateEmail() || !validateMessage()) {
+        jsShow('submit-error');
+        producePrompt('Please fix errors to submit.', 'submit-error', 'red');
+        setTimeout(function(){jsHide('submit-error');}, 2000);
+      }
+      else {
+    
+      }
+    }
+    
+    function jsShow(id) {
+      document.getElementById(id).style.display = 'block';
+    }
+    
+    function jsHide(id) {
+      document.getElementById(id).style.display = 'none';
+    }
+    
+    
+    
+    
+    function producePrompt(message, promptLocation, color) {
+    
+      document.getElementById(promptLocation).innerHTML = message;
+      document.getElementById(promptLocation).style.color = color;
+    
+    
+    }</script>
+          
+          
+         </b>
+         </div>
+         </div>
+         </div>
+         </div> 
+          </div>
+          
+          
+    
+    
+        
+        
+        <div class="clear"> </div>
+          </div>
+          
+          
+    
+    <div id="box">
+    
+    </div>
+    
+    
+    <!-- Site footer -->
+    <section class="bottom">
+    
+    <div class="container">
+      
+      <div class="col-md-1">
+        <h3></h3>
+       
+       </div>
+      
+        
+        <div class="col-md-5">
+          <h3><span class="glyphicon glyphicon-envelope"></span> Contact Us</h3>
+          <b><p><span class="glyphicon glyphicon-check"></span> Email: info@thefurniturehour.com</p></b>
+          <b><p><span class="glyphicon glyphicon-phone"></span> Phone: (00) 222 666 444</p></b>
+        </div>
+        <div class="col-md-5">
+          <h3><span class="glyphicon glyphicon-phone"></span>Follow Us</h3>
+          <p><img src="images/facebook.png">
+          <img src="images/feed.png" />
+          <img style="width: 30px;height: 30px;" src="Images/intsa.png"></p>
+          </div>
+    <p style="font-size: 12px;margin-right: 330px;" class="text-center">© 2022 The furniture hour shop. All rights reserved.</p>
+    </center>
+    </div>
+    </div>
+    </center>
+    </section>
+    
+    
+      
+      </body>
+</html>

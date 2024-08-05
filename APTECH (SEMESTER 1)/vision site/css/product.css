@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+ body{
+	 font-family:tahoma;
+	
+ }
+ 
+
+ header {
+	 background-image:url(../images/bakery%20pics/slider01.jpg);
+	 height:100%;
+	 background-position:center;
+	 background-size:cover;
+	 background-attachment:fixed;
+	
+ }
+ .hero-text {
+	color:white;
+	text-transform:uppercase;
+	margin-bottom:80px;
+	
+	
+}
+
+
+.header img {
+	margin-bottom:120px;
+}
+
+
+  .navbar-custom {
+	background:transparent;
+}
+
+.icon-bar {
+	background:lightgray;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+	
+		background:transparent;
+}
+
+.navbar-custom .navbar-nav li a {
+	color:lightgray;
+}
+
+.navbar-brand {
+	
+	color:lightgray;
+}
+.navbar-nav li a:hover {
+	  color:#e67e22;
+	  transition:all 0.2s ease-in;
+
+  }	
+ 
+ .logo{
+      width:150px;
+	  height:100px;
+ 
+ }
+  .btn{
+	  border:1px solid #e67e22;
+	  padding:10px 30px;
+	  color:#e67e22;
+	  text-decoration:none;
+	  border-radius:12px;
+	  margin-right:15px;
+  }
+  .button-awesome{
+	  margin-top:80px;
+  }
+  .btn-half{
+	  background-color:#e67e22;
+	  color:white;
+	  margin-top:60px;
+	  
+	  
+  }
+  .btn-full:hover {
+	  background-color:#e67e22;
+	  color:white;
+	  transition:all 0.5s ease-in;
+	  margin-bottom:50px;
+  }
+  .copy {
+	  width:70%;
+	  font-family:"Comic Sans MS", cursive;
+	  text-align:center;
+	  margin-left:15%;
+	  color:#e67e22;
+	  font-size:18px;
+	  margin-bottom:80px;
+  }
+  .features h3 {
+	  margin-top:80px;
+	  margin-bottom:30px;
+  }
+  
+ 
+   h3:after{
+	  width:200px;
+	  height:2px;
+	  background-color:#e67e22;
+	  display:block;
+	  content:" ";
+	  margin:0 auto;
+	  margin-top:15px;
+	 
+  }
+  
+
+
+  
+  .Testimonials {
+	  margin-top:80px;
+	  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/088ea4d19b9ab9ea58567aaa797e47ba.jpg);
+	  background-size:cover;
+	  padding-top:60px;
+	  padding-bottom:60px;
+	  color:white;
+	  background-attachment:fixed;
+	  
+  }
+  
+  .Testimonials cite img {
+	  width:50px;
+	  height:50px;
+	  border-radius:50%;
+	  margin-right:10px;
+  }
+  
+  .Testimonials p {
+	  color:white;
+	  line-height:25px;
+	  text-align:justify;
+	  margin-top:50px;
+  }
+  
+  .box{
+	  width:auto;
+	  height:150px;;
+	  border-bottom:solid #C60;
+  }
+  
+  
+  
+  -->product >
+ol,
+ul {
+list-style: none;
+ margin: 0;
+ padding: 0;
+}
+img{
+	max-width:100%;
+	height:300px;}
+	
+.clear{
+	clear:both}
+
+.gallery-grid   {
+        width: 31.2222%;
+        float: left;
+         }
+
+.grid2{ margin: 0 35px }
+
+.gallery-grid h4 {
+        color: #000;
+        font: 15px/15px "Comic Sans MS", cursive;
+        margin: 0;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+       -webkit-transition: all .3s ease-out;
+       -moz-transition: all .3s ease-out;
+       -ms-transition: all .3s ease-out;
+       -o-transition: all .3s ease-out;
+       transition: all .3s ease-out;
+       cursor: pointer;
+       padding: 13px 0 2px;
+                                        }
+
+.gallery-grid h4:hover   { color: #C60}
+
+.gallery-grid p    {
+     font-size: 14px;
+     padding: .2em 0 1.2em;
+     color: #C60;
+     line-height: 1.6em;
+     font-family:"MS Serif", "New York", serif;								              }
+
+.gallery-grids  { margin-bottom: 30px }
+
+.services     { padding-top: 2% }
+
+  
+ 
+
+  
+   .button {
+    background-color: #C60;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius:100%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+} 
+
+
+
+.button:hover {
+    color: #000;
+}
+
+
+/* --responsive design--
+   ================================================== */
+
+@media (max-width:1366px) { 
+{ width: 90% }
+.gallery-grid  { width: 31.1% }
+}
+
+@media (max-width:1280px) { 
+{ width: 90% }
+.gallery-grid  { width: 30.9% }
+}
+
+@media (max-width:1024px) { 
+{ width: 90% }
+.gallery-grid { width: 30.3% }
+
+}
+
+@media (max-width:640px)  { 
+{ width: 90% }
+.gallery-grid { width: 100% }
+.grid2 { margin: 0 }
+}
+
+@media (max-width:480px)  { 
+{ width: 90% }
+.gallery-grid { width: 100% }
+.grid2 { margin: 0 }
+
+}
+
+@media (max-width:320px)  { 
+{ width: 90% }
+.gallery-grid{ width: 100% }
+.grid2{ margin: 0}
+
+}
+  
+  
+  
+   -->footer >
+
+.bottom {
+  background-color: none;
+}
+.bottom .container {
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/129642659.jpg);
+  min-height: 150px;
+  padding-top:500;
+  width:auto;
+}
+.bottom .container h2 {
+  color: #C60;
+  font-size:20px;
+}
+
+.bottom .container h2:hover {
+  text-decoration:none;
+  cursor:pointer;
+}
+.bottom .container p {
+  font-family:"Comic Sans MS", cursive;
+  color: #C60;
+}
+
+.bottom .container p:hover {
+  color: #FFF;
+  cursor:pointer;
+}
+
+.bottom .container h4 {
+  color: #C60;
+}
+.picf{
+	width:10%;
+	height:10%;
+
+}
+.picl{
+	width:40%;
+	height:50%;
+
+}
+	
